@@ -1,0 +1,26 @@
+-------------------------------------------
+tests:
+qr: OK!
+qr_cblas: OK!
+qr_batch: OK!
+-------------------------------------------
+size =  256, time (qr_batch):   0.003125 s.
+size =  512, time (qr_batch):   0.015625 s.
+size = 1024, time (qr_batch):   0.165625 s.
+size = 2048, time (qr_batch):   1.581250 s.
+-------------------------------
+size =  256, time (qr):         0.006250 s.
+size =  512, time (qr):         0.037500 s.
+size = 1024, time (qr):         0.365625 s.
+size = 2048, time (qr):         3.403125 s.
+-------------------------------
+size =  256, time (qr_lapack):  0.015625 s.
+size =  512, time (qr_lapack):  0.143750 s.
+size = 1024, time (qr_lapack):  1.250000 s.
+size = 2048, time (qr_lapack):  9.231250 s.
+-------------------------------
+size =  256, time (qr_cblas):   0.015625 s.
+size =  512, time (qr_cblas):   0.103125 s.
+size = 1024, time (qr_cblas):   0.968750 s.
+size = 2048, time (qr_cblas):   7.231250 s.
+-------------------------------------------
